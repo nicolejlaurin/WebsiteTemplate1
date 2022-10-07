@@ -26,9 +26,9 @@ body p{
 .navbar {
   margin: 0;
   width: 100%;
-  background-color: #1A1A1A;
+  background-color: white;
   padding: 1em;
-  border-color: transparent;
+  border-color: none;
   text-align: center;
   display: inline-block;
   position:fixed;
@@ -51,11 +51,6 @@ body p{
   padding: 1rem 5rem 0rem 0rem;
 }
 
-
-.fa-bars {
-  color: #fff;
-}
-
 .menu-icon {
   display: none;
 }
@@ -63,7 +58,7 @@ body p{
 @media screen and (min-width: 960px) {
 
   .nav-links {
-    color: #fff;
+    color: black;
     display: grid;
     align-items: center;
     text-decoration: none;
@@ -245,7 +240,7 @@ body p{
 	text-align: left;
 	display: flex;
 	flex-direction: column;
-  background-image: url('./images/landing.jpg');
+  background-image: url('./images/landing3.jpg');
   padding-top: 100px;
   color: black;
   background-size: 100rem;
@@ -253,10 +248,12 @@ body p{
 }
 
 .landing h2 {
-	font-size: calc(60px + (90 - 40) * ((100vw - 300px) / (1600 - 300)));
-  padding: 3rem 3rem 5rem 3rem;
+	font-size: calc(70px + (90 - 40) * ((100vw - 300px) / (1600 - 300)));
+  padding: 4rem 3rem 5rem 3rem;
   font-weight: 500;
   margin: 0;
+	font-family: Snell Roundhand, cursive;
+
 }
 
 .landing p{
@@ -410,10 +407,11 @@ body p{
   display: inline-flex;
 	flex-direction: column;
 	min-height: 65vh;
-  background-color: #1A1A1A;
-  color: white;
+	background-image: url('./images/cloud.png');
+	background-size: 90rem;
+  color: black;
   align-content: flex-start;
-  text-align: left;
+  text-align: center;
   margin:0;
   padding:0;
   padding-bottom: 100px;
@@ -422,14 +420,14 @@ body p{
 .about-CN h4 {
 	font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300)));
 	font-weight: 200;
-	padding: 2rem 0rem 2rem 5rem;
+	padding: 2rem 0rem 2rem 0rem;
   margin-bottom: 0;
 }
 
 .about-CN p {
   font-size: calc(10px + (60 - 40) * ((100vw - 300px) / (2000 - 300)));
 	font-weight: 100;
-	padding: 0rem 4rem 0rem 5rem;
+	padding: 0rem 10rem 0rem 10rem;
   font-size: 20px;
   line-height: 33px;
 
@@ -439,13 +437,6 @@ body p{
   display:flex;
   resize: none;
 }
-.about-image{
-  height: 30rem;
-  width: 20rem;
-  padding: 8rem 6rem 0rem 1rem;
-  margin:0;
-}
-
 .button2 {
 	cursor:pointer;
 	border:none;
@@ -591,13 +582,9 @@ body p{
 
 .service {
   margin: 0;
-  min-height: 100vh;
   background-color: white;
 }
-.container{
-  min-height: 65vh;
-  margin-bottom: 4rem;
-}
+
 
 .service h4 {
   text-align: center;
@@ -620,8 +607,6 @@ body p{
 .item {
   text-align: center;
   border-radius: 0px;
-  border:2.3px solid rgba(0, 0, 0, 0.04);
-  overflow: hidden;
 }
 
 .item:hover{
@@ -633,15 +618,24 @@ body p{
   border-bottom: 5px solid #afdeb7;
 }
 
+.classic{
+	background-image: url('./images/cloud.png');
+}
+.hybrid{
+	background-image: url('./images/cloud.png');
+}
+.vol{
+	background-image: url('./images/cloud.png');
+}
+
 @media(min-width:980px) {
   .item{
     resize: none;
     padding: 1rem 0rem 1rem 0rem;
     display :inline-block;
     background: white;
-    padding: 30px;
     width: 500px;
-    height: 510px;
+    height: 410px;
     margin :10px;
   }
   .container {
@@ -1116,7 +1110,7 @@ body p{
   width:50%;
 }
 .contact-split-left h3{
-  color: #F96;
+  color: pink;
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 0;
@@ -1471,10 +1465,9 @@ fieldset {
 
 /*----------------------------ABOUT PAGE CSS------------------------------*/
 
-.aboutpage-CN {
+.about {
 	display: flex;
 	flex-direction: column;
-	background-color: white;
 	color: black;
   resize: none;
   padding-top: 80px;
@@ -1489,18 +1482,25 @@ fieldset {
 .abt-back{
   padding: 4rem 0rem 6rem 0rem;
   text-align: center;
-}
 
-.aboutpage-CN h4 {
+}
+.about h3 {
 	font-size: 40px;
 	font-weight: 300;
 	padding: 0rem 3rem 0rem 3rem;
 	text-align: center;
 
 }
+.about h4 {
+	font-size: 30px;
+	font-weight: 300;
+	padding: 0rem 3rem 0rem 3rem;
+	text-align: center;
+	font-style: italic;
+}
 
-.aboutpage-CN p {
-	font-size: 20px;
+.about p {
+	font-size: 15px;
 	font-weight: 100;
 	padding: 0rem 7rem 0rem 7rem;
   line-height: 33px;
@@ -1509,17 +1509,10 @@ fieldset {
 .aboutpage-split{
   display:flex;
   font-size: 30px;
-	font-weight: 600;
-	padding: 5rem 2rem 5rem 2rem;
+	padding: 5rem 0rem 5rem 0rem;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-
-}
-.aboutpage-text{
-  padding: 0rem 2rem 0rem 1.5rem;
-  text-align: left;
-  margin-top: 0;
 }
 
 .aboutpage-text h4 {
@@ -1575,11 +1568,16 @@ fieldset {
 
 
 @media only screen and (min-width: 768px) {
-  #about-img{
-    height: 400px;
-    width: 400px;
-    resize: none;
-  }
+	.aboutpage-split img{
+		height: 25rem;
+		width: 25rem;
+		margin:0;
+		padding: 0;
+	}
+	.aboutpage-text{
+		padding-left: 0;
+		margin-left: 0;
+	}
 }
 @media only screen and (max-width: 768px) {
 
@@ -1604,7 +1602,7 @@ fieldset {
   	padding: 1rem 3rem 0rem 3rem;
     font-size: 18px;
   }
-  .aboutpage-CN h4 {
+  .about h4 {
     font-size: calc(30px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
     padding: 0rem 0rem 1rem 0rem;
   	font-weight: 300;
@@ -1650,7 +1648,7 @@ fieldset {
       text-align: left;
     }
 
-    .aboutpage-CN p{
+    .about p{
       font-size: 14px;
     }
 }
@@ -1658,12 +1656,12 @@ fieldset {
 
 @media only screen and (max-width: 300px) {
 
-      .aboutpage-CN p{
+      .aboutp{
         font-size: 11px;
         line-height: 20px;
         padding: 1rem 0rem 0rem 0rem;
       }
-      .aboutpage-CN h4{
+      .about h4{
         font-size: 26px;
       }
 
@@ -1711,7 +1709,94 @@ fieldset {
     }
 
 
+/*----------------------------Prices PAGE ------------------------------*/
 
+
+
+/* Create three columns of equal width */
+.price-table {
+  padding: 0px;
+	display: flex;
+	width: 100%;
+
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+	width: 100%;
+	font-weight: 200;
+}
+
+
+/* Pricing header */
+.price .header {
+	background-color: #1A1A1A;
+  color: white;
+  font-size: 17px;
+
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.price-div{
+  background-color: white;
+  color: black;
+  padding: 0rem 2rem 5rem 2rem;
+  text-align: center;
+}
+.price-div h4{
+  padding: 3rem 0rem 0.7rem 0rem;
+  margin-bottom: 0;
+
+}
+.price-title{
+		color: pink;
+		font-weight: 400px;
+		font-size: 100px;
+		padding: 0rem 0rem 1rem 0rem;
+		margin-bottom: 0;
+}
+.underline{
+  position: relative;
+  border: none;
+  height: 2px;
+  width: 7rem;
+  background: white;
+  margin-bottom: 50px;
+}
+.abt-p{
+  display: flex;
+  resize: none;
+}
+.abt-p h5{
+  padding: 1rem 3rem 0rem 3rem;
+  font-size: 20px;
+  text-align: center;
+}
+
+.abt-p p{
+  padding: 1rem 3rem 1rem 3rem;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
 /*----------------------------CLIENT PAGE CSS------------------------------*/
 
 
@@ -1751,32 +1836,56 @@ fieldset {
 
 /*----------------------------CLIENT PAGE CSS------------------------------*/
 
-.Service-CN {
+.service {
 	display: flex;
 	flex-direction: column;
-  align-content: flex-start;
-  text-align: center;
-  padding: 7rem 5rem 3rem 5rem;
-}
-.Service-CN h4 {
-	font-size: calc(30px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
-  padding: 1rem 0rem 1rem 0rem;
-	font-weight: 300;
-  background-color: white;
-  color:black;
-  margin-bottom: 0;
+	background-color: white;
+	color: black;
+  resize: none;
+  padding-top: 80px;
 }
 
-.Service-CN p {
-	font-size: calc(8px + (60 - 40) * ((100vw - 300px) / (2000 - 300)));
-	font-weight: 80;
-  font-style: italic;
-  padding: 1rem 5rem 1rem 5rem;
+.service-desc{
+  padding: 1rem 0rem 6rem 0rem;
+  text-align: center;
+}
+.service h3 {
+	font-size: 40px;
+	font-weight: 300;
+	padding: 0rem 3rem 0rem 3rem;
+	text-align: center;
+}
+
+.services h3 {
+	background-image: url('./images/cloud.png');
+	font-size: 60px;
+	font-weight: 300;
+	padding-top: 100px;
+  color: black;
+  background-size: 100rem;
+	padding: 7rem 3rem 10rem 3rem;
+	text-align: center;
+}
+.service h4 {
+	font-size: 30px;
+	font-weight: 300;
+	padding: 0rem 3rem 0rem 3rem;
+	text-align: center;
+	font-style: italic;
+	color: pink;
+
+}
+
+.service p {
+	font-size: 15px;
+	font-weight: 100;
+	padding: 0rem 7rem 0rem 7rem;
+  line-height: 33px;
 }
 .service-split-img{
   height: 350px;
   width: 400px;
-  padding: 0rem 2rem 0rem 2rem;
+  padding: 0rem 0rem 0rem 2rem;
 }
 
 .service-split{
@@ -1785,6 +1894,22 @@ fieldset {
   resize: none;
   padding: 1rem 0rem 0rem 0rem;
   margin-right: 0;
+}
+
+.service-split h4 {
+	font-size: 30px;
+	font-weight: 300;
+	padding: 0rem 3rem 0rem 4rem;
+	text-align: left;
+	font-style: italic;
+}
+
+.service-split p {
+	font-size: 15px;
+	font-weight: 100;
+	padding: 0rem 7rem 0rem 4rem;
+  line-height: 33px;
+	width: 25rem;
 }
 
 .section1-CN {
@@ -1857,14 +1982,14 @@ fieldset {
 }
 
 @media only screen and (max-width: 828px) {
-  .Service-CN{
+  .Service{
     display: flex;
     flex-direction: column;
     align-content: flex-start;
     text-align: center;
     padding: 7rem 2rem 0rem 2rem;
   }
-  .Service-CN h4 {
+  .Service h4 {
   	font-size: calc(30px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
     padding: 1rem 0rem 1rem 0rem;
   	font-weight: 300;
@@ -1873,7 +1998,7 @@ fieldset {
     margin-bottom: 0;
   }
 
-  .Service-CN p {
+  .Service p {
   	font-size: calc(8px + (60 - 40) * ((100vw - 300px) / (2000 - 300)));
   	font-weight: 80;
     font-style: italic;
@@ -1899,14 +2024,14 @@ fieldset {
   }
 }
 @media only screen and (max-width: 500px) {
-  .Service-CN{
+  .Service{
     display: flex;
     flex-direction: column;
     align-content: flex-start;
     text-align: center;
     padding: 7rem 2rem 0rem 2rem;
   }
-  .Service-CN h4 {
+  .Service h4 {
   	font-size: calc(30px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
     padding: 1rem 0rem 1rem 0rem;
   	font-weight: 300;
@@ -1915,7 +2040,7 @@ fieldset {
     margin-bottom: 0;
   }
 
-  .Service-CN p {
+  .Service p {
   	font-size: 14px;
   	font-weight: 80px;
     font-style: italic;
@@ -1943,14 +2068,14 @@ fieldset {
 }
 
 @media only screen and (max-width: 300px) {
-  .Service-CN{
+  .Service{
     display: flex;
     flex-direction: column;
     align-content: flex-start;
     text-align: center;
     padding: 7rem 2rem 0rem 2rem;
   }
-  .Service-CN h4 {
+  .Service h4 {
   	font-size: 26px;
     padding: 1rem 0rem 1rem 0rem;
   	font-weight: 300;
@@ -1959,7 +2084,7 @@ fieldset {
     margin-bottom: 0;
   }
 
-  .Service-CN p {
+  .Service p {
   	font-size: 11px;
   	font-weight: 20px;
     font-style: italic;
