@@ -15,6 +15,9 @@ export default function Section1() {
     We provide classic, volume, mixed and mega volume extensions, using only the best materials. Our eyelash extensions
     eliminates the need for mascara, giving you a low-maintenance beauty routine. </p>
     </div>
+    <Link to='/services'>
+    <button className="service-button">Learn More</button>
+    </Link>
   </div>
 
 );

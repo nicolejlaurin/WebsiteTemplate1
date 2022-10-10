@@ -32,7 +32,7 @@ export default () => (
 
 
 
-        <h4> Hybrid Refill Set </h4>
+        <h4> Refill Set </h4>
 
           <div class="price-table">
             <ul class="price">
@@ -62,11 +62,12 @@ export default () => (
           </div>
           </div>
 
-          <h4> Guaratee</h4>
+					<div class="guarantee">
+          <h4>Guarantee</h4>
           <p>Eyelash extensions</p>
           <p>If you lose 50% or more of your eyelash extensions within 48 hours of application, you will receive a one-time complementary fill.  Please contact us immediately if this occurs as re-do appointments must be made within one week. </p>
           <p>Lash Lift</p>
           <p>If the lift drops within 48 hours of procedure, we will gladly re-do the service.  Please contact us immediately if this occurs as re-do appointments must be made within one week. ​</p>
-	
+					</div>
 	</div>
 );

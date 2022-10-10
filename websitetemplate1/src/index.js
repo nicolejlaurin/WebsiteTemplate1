@@ -11,6 +11,7 @@ import Section3 from './components/main-section3.jsx';
 import AboutPage from './components/aboutpage';
 import Services from './components/services';
 import Prices from './components/prices';
+import Gallery from './components/gallery';
 
 
 export default function App() {
@@ -39,7 +40,8 @@ ReactDOM.render(
   		</>} />
       <Route path="/aboutpage" element={<AboutPage />} />
       <Route path="/services" element={<Services />} />
-      <Route path="/Prices" element={<Prices />} />
+      <Route path="/prices" element={<Prices />} />
+      <Route path="/gallery" element={<Gallery />} />
 
 
 

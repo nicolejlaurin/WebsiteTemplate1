@@ -41,6 +41,9 @@ function Navigation() {
   <li>
     <NavLink to="/prices"  className='nav-links'>Prices</NavLink>
   </li>
+  <li>
+    <NavLink to="/gallery"  className='nav-links'>Gallery</NavLink>
+  </li>
 
 </ScrollToTop>
 
