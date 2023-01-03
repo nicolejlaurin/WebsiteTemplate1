@@ -17,7 +17,7 @@ export default () => (
     <h4>About Lash Refills</h4>
     <p>Alishia Lash Bar does not provide refills for lash extensions performed by other artists. Lashes applied by other artists must be booked with a lash removal and lash extension full set. This is due to a difference in technique, quality, and style.</p>
 		<p>If irritation, swelling or redness occurs more than 24 hours after appointment, please contact us ASAP for removal.</p>
-   </div>
+
 
 	 <h4>No Show/Cancellation Policy</h4>
 	 <p>We ask that you are on time to your scheduled appointment time. If you are over 10 minutes late, we may not be able to accommodate your scheduled service(s). If you arrive over 10 minutes late or do not show up to your appointment, you will be charged 50% of the service(s) you have scheduled and we will be able to help you reschedule for a time that works better for you. </p>
@@ -27,6 +27,6 @@ export default () => (
 
 	 <h4>Credit Card Policy</h4>
 	 <p> A credit card will be REQUIRED upon booking. This is to secure any future service(s) you book with us. If your credit card is declined for any previous policy fees, you will be charged at your next appointment.</p>
-
+   </div>
 	</div>
 );

@@ -23,46 +23,47 @@ body p{
 
 }
 
-/*----------------------------TOP NAV BAR-----------------------------*/
-
-
-#header-top-bar{
-	background-color: red;
-	height: 4rem;
-}
-.container-2{
-	background-color: blue;
-
-}
 /*----------------------------NAV BAR-----------------------------*/
 
 .navbar {
 	font-family: 'Poppins', sans-serif;
   margin: 0;
   width: 100%;
+	height: 170px;
   background-color: white;
   padding: 1em;
   border-color: none;
   text-align: center;
-  display: inline-block;
   position:fixed;
   top:0;
   list-style: none;
   z-index: 500;
+	padding-top: 0px;
+	margin-top: 0px;
 }
 
-.navbar-container {
-  display: flex;
-  justify-content: center;
+.navbar-left{
+	justify-content: center;
   align-items: center;
-  height: 100px;
+	display:inline-block;
+	width: 400px;
+	height: 200px;
 }
 
 .navbar-left img{
-  width: 110px;
-  height: 90px;
+	width: 300px;
+	height: 260px;
   float: center;
-  padding: 1rem 5rem 0rem 0rem;
+	margin-top:-40px;
+	margin-bottom: -40px;
+}
+
+.navbar-right{
+	display: flex;
+	float: center;
+	justify-content: center;
+  align-items: center;
+	margin-top: 0px;
 }
 
 .menu-icon {
@@ -73,11 +74,11 @@ body p{
 
   .nav-links {
     color: black;
-    display: grid;
+    display: inline-block;
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
-
+		justify-content: center;
   }
 
   .nav-links:hover {
@@ -87,38 +88,29 @@ body p{
     transition: all 0.2s ease-out;
   }
 
-
   .navbar-left img{
-    width: 110px;
-    height: 90px;
-    float: left;
-    padding: 0.5rem 17rem 0rem 0rem;
+		width: 300px;
+		height: 260px;
+    float: center;
   }
 
-
   .navbar-left{
-    width: 100px;
-    padding-right: 60px;
+		margin: 0;
+		padding: 0;
+		vertical-align: top;
+		vertical-align:bottom;
+		margin:-30px 0px -55px 0px;
   }
 
   .nav-menu {
     display: inline-block;
-    grid-gap: 10px;
     list-style: none;
-    margin-right: 2rem;
     text-align: center;
     margin: 0;
     padding: 0;
   }
-
-  .nav-menu li{
-    display: inline-block;
-    font-size: 17px;
-    padding: 16px;
-  }
-
-
 }
+
 @media screen and (max-width: 960px) {
 
   .nav-menu {
@@ -156,6 +148,7 @@ body p{
     text-decoration: none;
     padding: 1.5rem;
     justify-content: center;
+		align-items: center;
   }
 
   .nav-links:hover {
@@ -174,19 +167,12 @@ body p{
     padding: 0.5rem 1.5rem 0rem 0rem;
   }
 
-  .fa-times {
-    color: white;
-    font-size: 2rem;
-  }
-
   .navbar-left img{
     width: 100px;
-    height: 80px;
-    float: left;
-    padding: 0.5rem 40rem 0rem 0rem;
-    position:sticky;
-  }
+    height: 40px;
+		margin:-40px;
 
+  }
 
 }
 
@@ -254,7 +240,7 @@ body p{
 	text-align: left;
 	display: flex;
 	flex-direction: column;
-  background-image: url('./images/landing4.jpg');
+  background-image: url('./images/landing.jpg');
   padding-top: 100px;
   color: black;
   background-size: 100rem;
@@ -414,77 +400,134 @@ body p{
 
 
 /*----------------------------------------------------------------*/
-.testimonials{
-	background-color: #f33f02;
-	position: relative;
-	padding-top: 80px;
-	&:after{
-		content: '';
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		width: 100%;
-		height: 30%;
-		background-color: #ddd;
-	}
+.carousel-root {
+  width: 100% !important;
+  margin: auto !important;
+  margin-top: 10% !important;
 }
-#customers-testimonials {
-	.item-details{
-		background-color: #333333;
-		color: #fff;
-		padding: 20px 10px;
-		text-align: left;
-		h5{
-			margin: 0 0 15px;
-			font-size: 18px;
-			line-height: 18px;
-			span{
-				color: red;
-				float:right;
-				padding-right: 20px;
-			}
-		}
-		p{
-			font-size: 14px;
-		}
-	}
-	.item {
-			text-align: center;
-			margin-bottom:80px;
-	}
+
+.carousel .slide {
+  background: #fff !important;
+  color: black;
+  height: 100%;
 }
-.owl-carousel .owl-nav [class*='owl-'] {
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+
+.carousel .slide img {
+  width: 139px !important;
+  border-radius: 50%;
 }
-.owl-carousel .owl-nav [class*='owl-'].disabled:hover {
-  background-color: #D6D6D6;
+
+.myCarousel {
+  background: #fafafa;
+  margin-top: -6%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 1px solid #ddd;
+  height: 286px;
 }
-.owl-carousel {
-  position: relative;
+
+.carousel .control-dots {
+  padding-left: 5px !important;
+  outline: 0;
+  bottom: 5% !important;
 }
-.owl-carousel .owl-next,
-.owl-carousel .owl-prev {
-  width: 50px;
-  height: 50px;
-	line-height: 50px;
-	border-radius: 50%;
+
+.myCarousel h3 {
+  color: #222;
+  font-weight: 100;
+  letter-spacing: 0.2px;
+  margin-bottom: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.myCarousel h4 {
+  text-transform: uppercase;
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: 500;
+  color: #787878;
+  font-size: 14px;
+}
+
+.myCarousel p {
+  font-weight: 100 !important;
+  line-height: 29px !important;
+  color: #222;
+  font-size: 15px;
+  font-family: sans-serif;
+  max-height: 67px;
+}
+
+.myCarousel p:before {
+  content: "“";
+  color: #aaa;
+  font-size: 26px;
+  font-family: monospace;
+  font-weight: 100;
+}
+
+.myCarousel p:after {
+  content: "”";
+  color: #aaa;
+  font-size: 26px;
+  font-family: monospace;
+  font-weight: 100;
+  line-height: 0;
+}
+
+.carousel .control-dots .dot {
+  box-shadow: none !important;
+  background: pink !important;
+  outline: 0;
+}
+
+.carousel.carousel-slider .control-arrow {
+  background: pink !important;
+  height: 50px !important;
   position: absolute;
-  top: 30%;
-	font-size: 20px;
-  color: #fff;
-	border: 1px solid #ddd;
-	text-align: center;
-}
-.owl-carousel .owl-prev {
-  left: -70px;
-}
-.owl-carousel .owl-next {
-  right: -70px;
+  top: 55% !important;
 }
 
+.App {
+  text-align: center;
+}
 
+@media only screen and (max-width: 934px) {
+  .carousel-root {
+    outline: 0;
+    width: 93% !important;
+    margin: auto !important;
+  }
+
+  .carousel.carousel-slider .control-arrow {
+    display: none !important;
+  }
+  .myCarousel {
+    background: #fafafa;
+    margin-top: -9%;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    padding-bottom: 12.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid #ddd;
+    height: 269px;
+  }
+
+  .carousel .slide img {
+    width: 24% !important;
+    border-radius: 50%;
+  }
+}
 
 /*----------------------------ABOUT US----------------------------*/
 
@@ -665,148 +708,6 @@ body p{
 /*---------------------------SERVICES HOME PAGE---------------------------*/
 
 
-
-
-.container-9{
-    position: relative;
-    width: 800px;
-    min-width: 350px;
-    min-height: 250px;
-    padding-bottom: 40px;
-    overflow: hidden;
-}
-
-.wrapper{
-    width: 300%;
-    min-height: 100%;
-    display: flex;
-    justify-content: space-between;
-    transition: 1s;
-}
-
-.card{
-    width: 800px;
-    min-height: 100%;
-    background: #fff;
-    border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    margin: 0 10px;
-}
-
-.card-thumb{
-    width: 70%;
-    height: 250px;
-    overflow: hidden;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    position: relative;
-}
-
-.client-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.client-name{
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    padding: 5px 20px;
-    background: #fff;
-    text-transform: capitalize;
-    font-size: 14px;
-}
-
-.card-body{
-    width: 120%;
-    min-height: 100%;
-    height: auto;
-    margin-left: 20px;
-    position: relative;
-    padding-bottom: 50px;
-}
-
-.review{
-    font-size: 20px;
-    line-height: 30px;
-    margin-top: 30px;
-}
-
-.rating{
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.star{
-    width: 25px;
-    margin-right: 5px;
-}
-
-.indicators{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.indicators button{
-    background: none;
-    border: none;
-    outline: none;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    cursor: pointer;
-    margin-left: 5px;
-    transition: .5s;
-}
-
-button.active{
-    width: 40px;
-    border-radius: 50px;
-    background: #fff;
-}
-
-@media (max-width: 800px){
-    .container{
-        width: 50%;
-        margin: auto;
-    }
-    .card{
-        flex-direction: column;
-    }
-    .card-thumb{
-        width: 100%;
-        border-radius: 10px;
-    }
-    .card-body{
-        width: 100%;
-        min-height: auto;
-        margin-left: 0;
-    }
-}
-
-.scrolling-wrapper-flexbox {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-
-  .card {
-    flex: 0 0 auto;
-  }
-}
 .service-main {
 	display: flex;
 	flex-direction: column;
@@ -1108,7 +1009,7 @@ transition:background-color 0.3s ease-in-out;
 	padding-top: 100px;
   color: black;
   background-size: 100rem;
-	padding: 7rem 3rem 10rem 3rem;
+	padding: 10rem 3rem 10rem 3rem;
 	text-align: center;
 }
 .service h4 {
@@ -2214,7 +2115,7 @@ fieldset {
 	padding: 0rem 2rem 5rem 0rem;
 	border:1px solid pink;
   border-spacing:10px;
-	margin: 40px 0;
+	margin: 80px 0;
 }
 
 .price-box h4{
@@ -2228,7 +2129,7 @@ fieldset {
 }
 
 .guarantee{
-	padding: 0rem 2rem 5rem 2rem;
+	padding: 5rem 2rem 5rem 2rem;
 }
 .after-care {
 		  padding: 0rem 0rem 0rem 3rem;
@@ -2490,7 +2391,7 @@ fieldset {
   	text-align: center;
   	display: flex;
   	flex-direction: column;
-    background-image: url('./images/landing4.jpg');
+    background-image: url('./images/landing.jpg');
     padding-top: 30px;
     color: black;
     background-size: 100rem;

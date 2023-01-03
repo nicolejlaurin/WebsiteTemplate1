@@ -1,6 +1,7 @@
 import React from 'react';
 import Img_logo from '../images/image.jpg';
 import { Link }  from 'react-router-dom';
+import jQuery from 'jquery';
 
 const wrapper = document.querySelector('.wrapper');
 const indicators = [...document.querySelectorAll('.indicators button')];
@@ -15,6 +16,7 @@ indicators.forEach((item, i) => {
         currentTestimonial = i;
     })
 })
+
 
 export default () => (
 	<div class="service-main">
@@ -66,52 +68,6 @@ export default () => (
     </div>
 		</div>
 		</div>
-
-
-
-
-
-  <div class="container-9">
-          <div class="wrapper">
-              <div class="card">
-                  <div class="card-thumb">
-                      <img src="img/img-1.jpeg" class="client-img" alt=""></img>
-                      <span class="client-name">client one</span>
-                  </div>
-                  <div class="card-body">
-                      <p class="review">I am officially in love with your lashes! They're so fluffy & easy to fan. Defintely will be purchasing all the time. - Gina</p>
-
-                  </div>
-              </div>
-              <div class="card">
-                  <div class="card-thumb">
-                      <img src="img/img-2.jpeg" class="client-img" alt=""></img>
-                      <span class="client-name">client two</span>
-                  </div>
-                  <div class="card-body">
-                      <p class="review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, nam. Fugiat, ut provident. Nulla quibusdam labore ea est consequatur sequi fuga iusto laudantium, earum doloremque?</p>
-
-                  </div>
-              </div>
-              <div class="card">
-                  <div class="card-thumb">
-                      <img src="img/img-3.jpeg" class="client-img" alt=""></img>
-                      <span class="client-name">client three</span>
-                  </div>
-                  <div class="card-body">
-                      <p class="review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, nam. Fugiat, ut provident. Nulla quibusdam labore ea est consequatur sequi fuga iusto laudantium, earum doloremque?</p>
-
-                  </div>
-              </div>
-          </div>
-          <div class="indicators">
-              <button class="active"></button>
-              <button></button>
-              <button></button>
-          </div>
-      </div>
-
-
 
 	</div>
 );
