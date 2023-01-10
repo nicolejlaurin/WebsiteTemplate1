@@ -19,7 +19,7 @@ body {
 }
 body p{
   line-height: 33px;
-	font-family: 'Work Sans', sans-serif;
+	font-family: sans-serif;
 
 }
 
@@ -240,20 +240,19 @@ body p{
 	text-align: left;
 	display: flex;
 	flex-direction: column;
-  background-image: url('./images/landing.jpg');
-  padding-top: 100px;
+  background-image: url('./images/landing4.jpg');
+  padding-top: 200px;
   color: black;
-  background-size: 100rem;
+  background-size: 80rem;
   margin-top: 80px;
 }
 
 .landing h2 {
-	font-size: calc(70px + (90 - 40) * ((100vw - 300px) / (1600 - 300)));
+	font-size: 60px;
   padding: 4rem 3rem 5rem 3rem;
   font-weight: 500;
   margin: 0;
-	font-family: Snell Roundhand, cursive;
-
+	font-family: playfair display,serif;
 }
 
 .landing p{
@@ -400,6 +399,28 @@ body p{
 
 
 /*----------------------------------------------------------------*/
+.testimonials{
+	display: inline-flex;
+	flex-direction: column;
+	min-height: 65vh;
+	background-size: 90rem;
+	color: black;
+	align-content: flex-start;
+	text-align: center;
+	margin-top:0;
+	padding-top:0;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+
+}
+.testimonials h2{
+	font-size: 50px;
+	font-weight: 200;
+	padding: 6rem 0rem 0rem 0rem;
+	line-height: 0px;
+	margin-bottom: 0;
+}
+
 .carousel-root {
   width: 100% !important;
   margin: auto !important;
@@ -429,6 +450,7 @@ body p{
   padding-right: 5%;
   border: 1px solid #ddd;
   height: 286px;
+
 }
 
 .carousel .control-dots {
@@ -1031,7 +1053,7 @@ transition:background-color 0.3s ease-in-out;
 }
 .service-split-img{
   height: 350px;
-  width: 400px;
+  width: 350px;
   padding: 0rem 0rem 0rem 2rem;
 }
 
@@ -1041,6 +1063,8 @@ transition:background-color 0.3s ease-in-out;
   resize: none;
   padding: 1rem 0rem 0rem 2rem;
   margin: 0;
+	width: 300rem;
+
 }
 
 .service-split h4 {
@@ -1059,7 +1083,10 @@ transition:background-color 0.3s ease-in-out;
   line-height: 33px;
 }
 
+.service-text{
+	width: 50rem;
 
+}
 @media only screen and (max-width: 828px) {
   .Service{
     display: flex;
@@ -1103,6 +1130,25 @@ transition:background-color 0.3s ease-in-out;
 		display: block;
 		padding: 0;
   }
+	.service-text{
+		width: 40rem;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		color: black;
+		resize: none;
+		padding-top: 80px;
+
+		font-size: 15px;
+		font-weight: 100;
+		padding: 0rem 7rem 0rem 7rem;
+		line-height: 33px;
+		margin: 0;
+
+	}
+
+
 }
 @media only screen and (max-width: 500px) {
   .Service{
@@ -2391,7 +2437,7 @@ fieldset {
   	text-align: center;
   	display: flex;
   	flex-direction: column;
-    background-image: url('./images/landing.jpg');
+    background-image: url('./images/landing4.jpg');
     padding-top: 30px;
     color: black;
     background-size: 100rem;

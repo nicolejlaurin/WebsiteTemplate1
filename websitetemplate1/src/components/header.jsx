@@ -32,7 +32,7 @@ function Navigation() {
 
   <ScrollToTop>
   <li>
-    <NavLink to="/" className='nav-links' >Home</NavLink>
+    <NavLink to="/" className='nav-links' >HOME</NavLink>
   </li>
   <li>
     <NavLink to="/aboutpage"  className='nav-links'>About Us</NavLink>

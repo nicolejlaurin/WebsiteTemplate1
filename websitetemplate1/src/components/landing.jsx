@@ -5,7 +5,7 @@ import { Link }  from 'react-router-dom';
 export default () => (
 	<div className='landing'>
 		<h2>
-			Alishia Lash Bar
+			Get in touch with us!
 		</h2>
 		<div className='info'>
 			<p >Learning more about how we can help you.</p>

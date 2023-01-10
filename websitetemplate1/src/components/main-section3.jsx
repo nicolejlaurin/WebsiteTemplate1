@@ -15,7 +15,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
 export default () => (
-
+	<div className='testimonials'>
+	<h2>
+		Get in touch with us!
+	</h2>
 
 	<Carousel
          showArrows={true}
@@ -25,11 +28,12 @@ export default () => (
          autoPlay={true}
          interval={6100}
        >
+
          <div>
 					 <img src={Vol} ></img>
 
            <div className="myCarousel">
-             <h3>Shirley Fultz</h3>
+             <h3>Destiny Fultz</h3>
              <h4>Designer</h4>
              <p>
                It's freeing to be able to catch up on customized news and not be
@@ -62,4 +66,6 @@ export default () => (
            </div>
          </div>
        </Carousel>
+			 </div>
+
 );
