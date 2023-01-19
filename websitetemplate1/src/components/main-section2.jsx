@@ -25,25 +25,24 @@ export default () => (
   <div class="container-outer">
 
 		<div class="container">
-    <div class="type classic">
-		<Link to='/'>
-		</Link>
-    </div>
-    <div class="container-inner">
-    <h4>Classic Lashes</h4>
-    <p>A Lash Mini is the technique of attaching eyelash extensions to 50-70% of your natural applicable lash to create a more light and subtle look. A great option to achieve that truly natural appearance. </p>
-    </div>
+      <div class="type classic">
+  		  <Link to='/'></Link>
+      </div>
+      <div class="container-inner">
+        <h4>Classic Lashes</h4>
+        <p>A Lash Mini is the technique of attaching eyelash extensions to 50-70% of your natural applicable lash to create a more light and subtle look. A great option to achieve that truly natural appearance. </p>
+      </div>
     </div>
 
     <div class="container">
-    <div class="type hybrid">
-		<Link to='/aboutpage'>
-		</Link>
-    </div>
-    <div class="container-inner">
-    <h4>Hybrid Lashes</h4>
-    <p>A Lash Mini is the technique of attaching eyelash extensions to 50-70% of your natural applicable lash to create a more light and subtle look. A great option to achieve that truly natural appearance. </p>
-    </div>
+      <div class="type hybrid">
+    		<Link to='/aboutpage'>
+    		</Link>
+      </div>
+      <div class="container-inner">
+        <h4>Hybrid Lashes</h4>
+        <p>A Lash Mini is the technique of attaching eyelash extensions to 50-70% of your natural applicable lash to create a more light and subtle look. A great option to achieve that truly natural appearance. </p>
+      </div>
 		</div>
 
     <div class="container">
