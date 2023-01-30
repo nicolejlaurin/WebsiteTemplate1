@@ -5,7 +5,7 @@ import { Link }  from 'react-router-dom';
 export default function Section1() {
   return (
 	<div className='about-CN'>
-    <div class='about-split-left'>
+    <div>
     <h4>
     Beauty in the blink of an eye
     </h4>

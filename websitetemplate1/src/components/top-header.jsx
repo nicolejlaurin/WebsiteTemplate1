@@ -4,10 +4,7 @@ import { Link }  from 'react-router-dom';
 import { FaPhoneAlt, FaFacebookF, FaInstagram, FaEnvelope, FaChartLine, FaCode, FaCodeBranch} from 'react-icons/fa';
 
 export default () => (
-  <div id="header-top-bar">
-    <div class="container">
+  <div id="">
 
-
-  </div>
 </div>
 );

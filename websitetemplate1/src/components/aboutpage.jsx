@@ -9,7 +9,7 @@ export default () => (
 	<h3>
 	ABOUT US
 	</h3>
-	<img src={Team_Img} id="about-img"></img>
+	<img src={Team_Img} className="team-img"></img>
 
 		<h4>
 		Do you desire perfect lashes without the need for curlers and mascara?
