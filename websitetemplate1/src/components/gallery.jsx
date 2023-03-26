@@ -17,9 +17,9 @@ export default () => (
 			</h4>
 		</div>
 
-    <div class="elfsight-app-76fe5023-4d4d-4257-be27-b2c2b4c7c387"></div>
+		<div class="elfsight-app-103bdf9f-ed59-480a-9b57-137e9ee64ecb"></div>
     <a class="ig-timeline" href="https://apps.elfsight.com/p/platform.js" ></a>
-    <script async src="https://apps.elfsight.com/p/platform.js" charset="utf-8"></script>
+    <script async src="https://apps.elfsight.com/p/platform.js" defer charset="utf-8"></script>
 
 	</div>
 );

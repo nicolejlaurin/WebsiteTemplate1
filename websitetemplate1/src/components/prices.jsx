@@ -9,8 +9,60 @@ export default () => (
 		<div className='price-div'>
 			<h4 class="price-title"> OUR PRICES</h4>
 			<hr className="underline"></hr>
+
+
+			      <h4 class="price-h4"> Full Set </h4>
+			        <div class="price-table">
+			          <ul class="price">
+			            <li >Service</li>
+			            <li>Full Set Classic Lashes - 2 hours</li>
+			            <li>Full Set hybrid Lashes - 2.5 hours</li>
+			            <li>Full Set Volume Lashes - 3 hours</li>
+			            <li>Full Set Mega Volume Lashes - 3 hours</li>
+			            <li>Lash Extension Removal - 30 minutes</li>
+			          </ul>
+			          <ul class="price">
+			            <li >Price</li>
+			            <li>$120</li>
+			            <li>$150</li>
+			            <li>$200</li>
+			            <li>$250</li>
+			            <li>$25</li>
+
+			          </ul>
+			        </div>
+
+			        <h4 class="price-h4"> Refill Set </h4>
+			        <div class="price-table">
+			          <ul class="price">
+			              <li>Service</li>
+			              <li>Classic Refill (2 weeks)</li>
+			              <li>Classic Refill (3 weeks)</li>
+			              <li>Hybrid Refill (2 weeks)</li>
+			              <li>Hybrid Refill (3 weeks)</li>
+			              <li>Volume Refill (2 weeks)</li>
+			              <li>Volume Refill (3 weeks)</li>
+			              <li>Mega Volume Refill (2 weeks)</li>
+			              <li>Mega Volume Refill (3 weeks)</li>
+			            </ul>
+			            <ul class="price">
+			              <li>Price</li>
+			              <li>$60</li>
+			              <li>$75</li>
+			              <li>$70</li>
+			              <li>$85</li>
+			              <li>$80</li>
+			              <li>$90</li>
+			              <li>$90</li>
+			              <li>$100</li>
+			            </ul>
+			          </div>
+
+
 			<div class="price-box">
 			<h4>About Lash Refills</h4>
+
+
 			<p>All appointments require deposits paid upon booking a service. Deposits are absolutely non-refundable, no exceptions. In case of a cancellation, they are only transferrable for appointments if notified before 48 HOURS of original appointment. </p>
 			<p>All cancellations must be made aware of at least 48 HOURS prior to all appointments. If an appointment is cancelled in under 48 hours and you would like to rebook, a $20 cancellation fee as well as a new deposit is required.</p>
 			<p>In the case of a no-show, the deposit will be lost as well as being blocked from rebooking. If you have no-showed previously and would like to rebook, you must pay the FULL amount of your previous service in addition to the full amount of the new appointment. We have the right to refuse service to previous no-shows.</p>
@@ -36,52 +88,6 @@ export default () => (
 			</div>
 
 
-      <h4 class="price-h4"> Full Set </h4>
-        <div class="price-table">
-          <ul class="price">
-            <li >Service</li>
-            <li>Full Set Classic Lashes - 2 hours</li>
-            <li>Full Set hybrid Lashes - 2.5 hours</li>
-            <li>Full Set Volume Lashes - 3 hours</li>
-            <li>Full Set Mega Volume Lashes - 3 hours</li>
-            <li>Lash Extension Removal - 30 minutes</li>
-          </ul>
-          <ul class="price">
-            <li >Price</li>
-            <li>$120</li>
-            <li>$150</li>
-            <li>$200</li>
-            <li>$250</li>
-            <li>$25</li>
-
-          </ul>
-        </div>
-
-        <h4 class="price-h4"> Refill Set </h4>
-        <div class="price-table">
-          <ul class="price">
-              <li>Service</li>
-              <li>Classic Refill (2 weeks)</li>
-              <li>Classic Refill (3 weeks)</li>
-              <li>Hybrid Refill (2 weeks)</li>
-              <li>Hybrid Refill (3 weeks)</li>
-              <li>Volume Refill (2 weeks)</li>
-              <li>Volume Refill (3 weeks)</li>
-              <li>Mega Volume Refill (2 weeks)</li>
-              <li>Mega Volume Refill (3 weeks)</li>
-            </ul>
-            <ul class="price">
-              <li>Price</li>
-              <li>$60</li>
-              <li>$75</li>
-              <li>$70</li>
-              <li>$85</li>
-              <li>$80</li>
-              <li>$90</li>
-              <li>$90</li>
-              <li>$100</li>
-            </ul>
-          </div>
 					<div class="price-box">
 					<h4>Guarantee</h4>
 					<p>Eyelash extensions</p>

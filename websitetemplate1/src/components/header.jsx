@@ -1,6 +1,5 @@
-import { NavLink } from "react-router-dom";
+import { NavLink,useLocation } from "react-router-dom";
 import Img_logo from '../images/logocanva.png';
-import { useLocation } from "react-router";
 
 import React, { useEffect, useState } from 'react';
 
@@ -46,7 +45,6 @@ function Navigation() {
 
 
   <div class="navbar-right">
-
   <ScrollToTop>
 
   <ul className={click ? 'nav-menu active':'nav-menu'}>
@@ -55,25 +53,23 @@ function Navigation() {
     <NavLink to="/" className='nav-links' onClick={closeMobileMenu} >HOME</NavLink>
   </li>
   <li>
-    <NavLink to="/aboutpage"  className='nav-links' onClick={closeMobileMenu}>About Us</NavLink>
+    <NavLink to="/aboutpage"  className='nav-links' onClick={closeMobileMenu}>ABOUT US</NavLink>
   </li>
   <li>
-    <NavLink to="/services"  className='nav-links' onClick={closeMobileMenu}>Services</NavLink>
+    <NavLink to="/services"  className='nav-links' onClick={closeMobileMenu}>SERVICES</NavLink>
   </li>
   <li>
-    <NavLink to="/booking"  className='nav-links' onClick={closeMobileMenu}>Booking</NavLink>
+    <NavLink to="/booking"  className='nav-links' onClick={closeMobileMenu}>BOOKING</NavLink>
   </li>
   <li>
-    <NavLink to="/prices"  className='nav-links' onClick={closeMobileMenu}>Prices</NavLink>
+    <NavLink to="/prices"  className='nav-links' onClick={closeMobileMenu}>PRICES</NavLink>
   </li>
   <li>
-    <NavLink to="/policies"  className='nav-links' onClick={closeMobileMenu}>Policies</NavLink>
+    <NavLink to="/policies"  className='nav-links' onClick={closeMobileMenu}>POLICIES</NavLink>
   </li>
   <li>
-    <NavLink to="/gallery"  className='nav-links' onClick={closeMobileMenu}>Gallery</NavLink>
+    <NavLink to="/gallery"  className='nav-links' onClick={closeMobileMenu}>GALLERY</NavLink>
   </li>
-
-
 
   </ul>
 </ScrollToTop>
