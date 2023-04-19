@@ -9,8 +9,6 @@ export default () => (
 		<div className='price-div'>
 			<h4 class="price-title"> OUR PRICES</h4>
 			<hr className="underline"></hr>
-
-
 			      <h4 class="price-h4"> Full Set </h4>
 			        <div class="price-table">
 			          <ul class="price">

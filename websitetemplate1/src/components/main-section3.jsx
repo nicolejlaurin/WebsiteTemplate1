@@ -8,6 +8,9 @@ import Classic from '../images/classic.jpg';
 import Hybrid from '../images/hybrid.jpg';
 import Vol from '../images/volume.jpg';
 import Mega from '../images/mega.jpg';
+
+import Heart from '../images/heart.png';
+
 import {FaChevronRight, FaChevronLeft} from 'react-icons/fa';
 
 import{ Component } from "react";
@@ -16,9 +19,10 @@ import { Carousel } from "react-responsive-carousel";
 
 export default () => (
 	<div className='testimonials'>
-	<h2>
-		Get in touch with us!
-	</h2>
+	<h4>
+		Testimonials
+		<hr className="underline-testimonials"></hr>
+	</h4>
 
 	<Carousel
          showArrows={true}
@@ -33,35 +37,32 @@ export default () => (
 					 <img src={Vol} ></img>
 
            <div className="myCarousel">
-             <h3>Destiny Fultz</h3>
-             <h4>Designer</h4>
+             <h3>Destiny</h3>
+             <h4>Customer</h4>
              <p>
-               It's freeing to be able to catch up on customized news and not be
-               distracted by a social media element on the same site
+              Lashes by Alisha is fantastic, friendly, and professional. I am so happy I found her, my eyelashes always look amazing and I trust her completely.
              </p>
            </div>
          </div>
 
          <div>
-				 <img src={Vol} ></img>
+				 <img src={Mega} ></img>
            <div className="myCarousel">
-             <h3>Daniel Keystone</h3>
-             <h4>Designer</h4>
+             <h3>Danna</h3>
+             <h4>Customer</h4>
              <p>
-               The simple and intuitive design makes it easy for me use. I highly
-               recommend Fetch to my peers.
+               I have been looking for someone to do my eyelashes for ages. I was absolutely blown away by the results. I wanted my eyelashes to be looking very natural and beautiful and they do! She is very professional and friendly. I would highly recommend her services to anyone that is looking for a glamorous flawless look.
              </p>
            </div>
          </div>
 
          <div>
-				 <img src={Vol} ></img>
+				 <img src={Hybrid} ></img>
            <div className="myCarousel">
-             <h3>Theo Sorel</h3>
-             <h4>Designer</h4>
+             <h3>Amy</h3>
+             <h4>Customer</h4>
              <p>
-               I enjoy catching up with Fetch on my laptop, or on my phone when
-               I'm on the go!
+               I cannot explain how my lashes look, words don't do justice to the beauty of the lashes and the price!! The service Alishia provides is unbeatable. Don't give it a miss.
              </p>
            </div>
          </div>

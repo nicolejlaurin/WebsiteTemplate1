@@ -9,7 +9,12 @@ html {
 }
 
 body {
+	font-family: playfair display,sans-serif;
+
 	font-family: playfair display,serif;
+
+	font-family: Montserrat, sans-serif;
+
   background-color:  white;
 	font-size: 16px;
 	scrollbar-width: none !important;
@@ -652,33 +657,40 @@ body p{
 .testimonials{
 	display: inline-flex;
 	flex-direction: column;
-	min-height: 65vh;
-	background-size: 90rem;
 	align-content: flex-start;
 	text-align: center;
-	margin-top:0;
-	padding-top:0;
-	padding-bottom: 10px;
-	margin-bottom: 0;
-
+	margin:0;
+	padding:0;
 }
-.testimonials h2{
-	font-size: 50px;
-	font-weight: 200;
-	padding: 6rem 0rem 0rem 0rem;
-	line-height: 0px;
+
+.underline-testimonials{
+	position: relative;
+	border: none;
+	height: 2px;
+	width: 5rem;
+	background: #F9ACDF;
 	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+.testimonials h4 {
+	font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300)));
+	font-weight: 200;
+	padding-top: 45px;
+	padding-bottom: 0;
+	font-size: 30px;
+  margin: 0;
+	color:black;
 }
 
 .carousel-root {
   width: 100% !important;
   margin: auto !important;
-  margin-top: 10% !important;
+  margin-top: 5% !important;
 }
 
 .carousel .slide {
   background: #fff !important;
-  color: black;
   height: 100%;
 }
 
@@ -699,7 +711,6 @@ body p{
   padding-right: 5%;
   border: 1px solid #ddd;
   height: 286px;
-
 }
 
 .carousel .control-dots {
@@ -775,47 +786,20 @@ body p{
 		.testimonials{
 			display: inline-flex;
 			flex-direction: column;
-			background-size: 90rem;
 			color: black;
 			display: flex;
-			float: center;
 			justify-content: center;
 		  align-items: center;
 			margin:0;
 		}
 		.testimonials h2{
 			font-size: 32px;
-			font-weight: 200;
-			padding: 1rem 0rem 0.5rem 0rem;
-			margin: 0;
-		}
-
-
-		.myCarousel h2 {
-		  color: #222;
-		  font-weight: 100;
-		  letter-spacing: 0.2px;
-		  margin-bottom: 4px;
-		  font-weight: 600;
-		  text-transform: uppercase;
-		  font-size: 17px;
-		}
-
-		.myCarousel h4 {
-		  text-transform: uppercase;
-		  margin-top: 0;
-		  padding-top: 0;
-		  font-weight: 500;
-		  color: #787878;
-		  font-size: 14px;
 		}
 
 		.myCarousel p {
 		  font-weight: 100 !important;
 		  line-height: 20px !important;
-		  color: #222;
 		  font-size: 12px;
-		  font-family: sans-serif;
 		  max-height: 67px;
 		}
 }
@@ -879,12 +863,31 @@ body p{
   color: black;
   align-content: flex-start;
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
+	margin:0;
+
+
+}
+.underline-about{
+  position: relative;
+  border: none;
+  height: 2px;
+  width: 10rem;
+  background: #F9ACDF;
+  margin-bottom: 0;
+	margin-top: 10px;
+}
+.about-box{
+	padding: 0rem 0rem 2rem 0rem;
+	border:1px solid #F9ACDF;
+  border-spacing:10px;
+	margin: 60px;
 }
 
 .about-CN h4 {
 	font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300)));
-	font-weight: 200;
+	font-weight: 100;
+	font-size: 30px;
 	padding: 2rem 0rem 2rem 0rem;
   margin-bottom: 0;
 }
@@ -895,6 +898,7 @@ body p{
 	padding: 0rem 7rem 0rem 7rem;
   font-size: 20px;
   line-height: 33px;
+	color:#262626;
 }
 
 .about-split{
@@ -1036,7 +1040,6 @@ max-width:100% ;
 
 /*---------------------------SERVICES HOME PAGE---------------------------*/
 
-
 .service-main {
 	flex-direction: column;
   resize: none;
@@ -1047,6 +1050,7 @@ max-width:100% ;
 	font-size: 30px;
 	font-weight: 600;
 	padding: 0;
+	margin-bottom: 0;
 	text-align: center;
 	font-style: italic;
 	color: #F9ACDF;
@@ -1123,20 +1127,15 @@ transition:background-color 0.3s ease-in-out;
 	.container{
 	  justify-content: center;
 	  text-align: center;
-		display: inline-block;
 		flex-direction: column;
 		display: flex;
 	  align-items: center;
-	  min-height: 100vh;
+	  min-height: 50vh;
 		background-color: white;
-
 	 }
 	 .type{
 	 	width: 300px;
 	 	height: 400px;
-	 	border: none;
-	 	padding: 0;
-	 	margin: 0;
 	 	height: 19rem;
 	 }
 }
@@ -1144,19 +1143,14 @@ transition:background-color 0.3s ease-in-out;
 
 	  .service-main{
 	    display:block;
-	    text-align: center;
 	    margin: 0;
-	    padding: 0;
 	    width: inherit;
 			padding: 0rem 2rem 0rem 2rem;
-
 	  }
 
 		.container-outer{
 	    display:block;
-	    text-align: center;
 	  }
-
 
 	  .service-main p {
 			padding: 1rem 1rem 4rem 1rem;
@@ -1165,7 +1159,6 @@ transition:background-color 0.3s ease-in-out;
 			font-size: 14px;
 			font-weight: 100;
 	  }
-
 
 		.service-main h4 {
 		  padding: 3rem 2rem 0rem 2rem;
@@ -1189,7 +1182,6 @@ transition:background-color 0.3s ease-in-out;
 		display: inline-block;
 		min-height: 45vh;
 	}
-
 }
 
 @media only screen and (max-width: 500px) {
