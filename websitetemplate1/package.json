@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicolejlaurin/CN.git"
+    "url": "git+https://github.com/nicolejlaurin/WebsiteTemplate1.git"
   },
   "author": "Nicole Laurin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nicolejlaurin/WebsiteTemplate1/issues"
   },
-  "homepage": ".",
+  "homepage": "https://cn-mgt.com",
   "browserslist": {
     "production": [
       ">0.2%",
