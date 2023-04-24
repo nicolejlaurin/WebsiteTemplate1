@@ -24,8 +24,6 @@ body {
 }
 body p{
   line-height: 33px;
-	font-family: sans-serif;
-
 }
 
 /*----------------------------NAV BAR-----------------------------*/
@@ -743,7 +741,6 @@ body p{
   line-height: 29px !important;
   color: #222;
   font-size: 15px;
-  font-family: sans-serif;
   max-height: 67px;
 }
 
@@ -865,8 +862,6 @@ body p{
   text-align: center;
   padding-bottom: 0px;
 	margin:0;
-
-
 }
 .underline-about{
   position: relative;
@@ -905,12 +900,7 @@ body p{
   display:flex;
   resize: none;
 }
-.team-img{
-max-width:100% ;
- height:auto;
-	padding: 1rem 5rem 0rem 5rem;
-	align-items: center;
-}
+
 .button2 {
 	cursor:pointer;
 	border:none;
@@ -945,44 +935,42 @@ max-width:100% ;
     padding: 1rem 5rem 0rem 5rem;
     align-items: center;
   }
-
-
 }
 @media only screen and (max-width: 700px) {
 
 	.about-CN p {
 		padding: 0rem 2rem 0rem 2rem;
 	}
-
 }
-@media only screen and (max-width: 500px) {
 
-  .about-CN{
+@media only screen and (max-width: 500px) {
+  .about-CN {
     display:block;
     text-align: center;
     margin: 0;
     padding: 0;
     width: inherit;
-		min-height: 40vh;
   }
 
   .about-CN h4 {
-  	padding: 3rem 2rem 0.5rem 2rem;
+  	padding: 2rem 2rem 0.5rem 2rem;
     margin:0;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 100;
   }
+
   .about-CN p {
-    padding: 1rem 2rem 0rem 2rem;
+    padding: 1rem 0rem 0rem 0rem;
     text-align: center;
     line-height: 25px;
     font-size: 14px;
     font-weight: 100;
   }
-
-	.team-img{
-		 padding: 1rem 1rem 0rem 1rem;
-		align-items: center;
+	.about-box{
+		padding: 0rem 1rem 2rem 1rem;
+		border:1px solid #F9ACDF;
+	  border-spacing:10px;
+		margin: 30px;
 	}
 }
 
@@ -1031,10 +1019,7 @@ max-width:100% ;
         margin: 1.5rem 0rem;
         width: 13rem;
 
-      }	.team-img{
-					padding: 1rem 1rem 0rem 1rem;
-					align-items: center;
-				}
+      }
   }
 
 
@@ -1101,7 +1086,6 @@ max-width:100% ;
 .container-outer{
 		display:flex;
 }
-
 
 .service-button{
 	cursor:pointer;
@@ -1340,7 +1324,6 @@ transition:background-color 0.3s ease-in-out;
 	padding: 0rem 3rem 0rem 3rem;
 	text-align: center;
 }
-
 .services h3 {
 	background-image: url('./images/cloud.png');
 	font-size: 40px;
@@ -1358,9 +1341,7 @@ transition:background-color 0.3s ease-in-out;
 	text-align: center;
 	font-style: italic;
 	color: #F9ACDF;
-
 }
-
 .service p {
 	font-size: 15px;
 	font-weight: 100;
@@ -1378,7 +1359,7 @@ transition:background-color 0.3s ease-in-out;
   display:flex;
   color: black;
   resize: none;
-  padding: 1rem 0rem 0rem 4rem;
+  padding: 1rem 0rem 0rem 10rem;
   margin: 0;
 	width: 280rem;
 }
@@ -1400,115 +1381,120 @@ transition:background-color 0.3s ease-in-out;
 }
 
 .service-text{
-	width: 46rem;
+	resize:none;
+	display: block;
+	width: 50rem;
+}
+
+@media only screen and (max-width: 950px) {
+
+.service{
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
 
 }
-@media only screen and (max-width: 828px) {
-
   .service-split{
     display:block;
+		width: auto;
+		padding: 0;
+		margin: 0;
   }
-  .service-text h4{
-    text-align: center;
-    padding: 3rem 2rem 1.5rem 2rem;
-  }
+	.service-split-img{
+		height: 300px;
+		width: 300px;
+		margin:0;
+		padding: 0;
+	}
+
+.service-split h4 {
+	padding: 3rem 0rem 1rem 0rem;
+	margin:0;
+	font-size: 30px;
+	font-weight: 100;
+	text-align: center;
+}
   .service-text p{
     text-align: center;
-    padding: 0rem 2rem 3rem 2rem;
+    padding: 0rem 10rem 3rem 10rem;
 }
-	.service-split-img{
-
-		height: 300px;
-	  width: 300px;
-    margin-left: auto;
-    margin-right: auto
-	}
 	.service-text{
-		width: 40rem;
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		background-color: white;
-		color: black;
-		resize: none;
-		font-size: 15px;
-		font-weight: 100;
-		padding: 0rem 2rem 0rem 2rem;
-		margin: 0;
+		margin:0;
+		padding: 0;
+		resize:none;
+		display: block;
+		width: auto;
+
 	}
 }
 @media only screen and (max-width: 500px) {
-  .service-split{
-    display:block;
-  }
-  .service-split h4{
-    text-align: center;
-    padding: 3rem 2rem 0rem 2rem;
-  }
-  .service-split p{
-    text-align: center;
-    font-size: 14px;
-    padding: 0rem 2rem 0rem 2rem;
-  }
-  .service-split img{
-    height: 300px;
-    width: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+	.services h3 {
+		background-image: url('./images/cloud.png');
+		font-size: 40px;
+		font-weight: 300;
+		padding-top: 100px;
+	  color: black;
+	  background-size: 100rem;
+		padding: 5rem 3rem 5rem 3rem;
+		text-align: center;
+	}
+	.service h4 {
+		font-size: 23px;
+		font-weight: 300;
+		padding: 0rem 3rem 0rem 3rem;
+		text-align: center;
+		font-style: italic;
+		color: #F9ACDF;
+	}
+	.service h3 {
+		font-size: 24px;
+	}
+	.service p {
+		font-size: 15px;
+		font-weight: 100;
+		padding: 0rem 3rem 0rem 3rem;
+	  line-height: 33px;
+		margin: 0;
+	}
+	.service{
+		font-size: 40px;
+		font-weight: 300;
+		text-align: center;
+
+	}
+	  .service-split{
+	    display:block;
+			width: auto;
+			padding: 0;
+			margin: 0;
+	  }
+		.service-split-img{
+			height: 300px;
+			width: 300px;
+			margin:0;
+			padding: 0;
+		}
+
+	.service-split h4 {
+		padding: 3rem 0rem 1rem 0rem;
+		margin:0;
+		font-size: 30px;
+		font-weight: 100;
+		text-align: center;
+	}
+	  .service-text p{
+	    text-align: center;
+			padding: 0rem 3rem 2rem 3rem;
+	}
+		.service-text{
+			margin:0;
+			padding: 0;
+			resize:none;
+			display: block;
+			width: auto;
+ }
 }
 
-@media only screen and (max-width: 300px) {
-  .Service{
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    text-align: center;
-    padding: 7rem 2rem 0rem 2rem;
-  }
-  .Service h4 {
-  	font-size: 26px;
-    padding: 1rem 0rem 1rem 0rem;
-  	font-weight: 300;
-    background-color: white;
-    color:black;
-    margin-bottom: 0;
-  }
-
-  .Service p {
-  	font-size: 11px;
-  	font-weight: 20px;
-    font-style: italic;
-    line-height: 20px;
-    padding: 1rem 0rem 0rem 0rem;
-  }
-  .service-split{
-    display:block;
-    padding: 0rem 0rem 0rem 0rem;
-    margin: 0;
-
-  }
-  .service-split h4{
-    text-align: center;
-    padding: 3rem 2rem 0rem 2rem;
-  }
-  .service-split p{
-    text-align: center;
-    font-size: 11px;
-    line-height: 20px;
-    padding: 0rem 2rem 0rem 2rem;
-  }
-  .service-split img{
-    height: 300px;
-    width: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    margin-top: 0;
-  }
-}
 
 /*----------------------------SPORTS------------------------------*/
 
@@ -2135,24 +2121,17 @@ fieldset {
   resize: none;
   padding-top: 80px;
 }
-.header-image{
-  text-align: left;
-	display: flex;
-	flex-direction: column;
-	color: black;
-  overflow:scroll;
-}
 .abt-back{
   padding: 4rem 0rem 6rem 0rem;
   text-align: center;
-
 }
 .about h3 {
 	font-size: 40px;
-	font-weight: 300;
-	padding: 0rem 3rem 0rem 3rem;
+	padding: 0;
 	text-align: center;
-
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	letter-spacing: .02em;
 }
 .about h4 {
 	font-size: 30px;
@@ -2171,7 +2150,7 @@ fieldset {
 .aboutpage-split{
   display:flex;
   font-size: 30px;
-	padding: 5rem 0rem 5rem 0rem;
+	padding: 2rem 3rem 5rem 4rem;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -2180,30 +2159,17 @@ fieldset {
 .aboutpage-text h4 {
 	font-size: 30px;
   height: 10px;
-  text-align: left;
-  margin-top: 0;
-  padding: 0rem 0rem 0rem 2.5rem;
+  text-align: center;
+  padding: 0rem 0rem 1.5rem 0rem;
+	margin: 0;
 }
 
 .aboutpage-text p {
-  font-size: 17px;
-  width: 400px;
-  resize: none;
-  padding: 0rem 0rem 0rem 2.5rem;
-  margin-top: 0;
-  text-align: left;
+	font-size: 15px;
+  padding: 0rem 2rem 0rem 2rem;
+	text-align: center;
 }
-.abt-back2{
-  background-color: #1A1A1A;
-  color: white;
-  padding: 0rem 2rem 5rem 2rem;
-  text-align: center;
-}
-.abt-back2 h4{
-  padding: 3rem 0rem 0rem 0rem;
-  margin-bottom: 0;
 
-}
 .underline{
   position: relative;
   border: none;
@@ -2213,35 +2179,19 @@ fieldset {
   margin-bottom: 50px;
 	margin-top: 0;
 }
-.abt-p{
-  display: flex;
-  resize: none;
+.team-img{
+	max-width: 80%;
+	height: auto;
+	padding: 1rem 1rem 0rem 1rem;
+	align-items: center;
 }
-.abt-p h5{
-  padding: 1rem 3rem 0rem 3rem;
-  font-size: 20px;
-  text-align: center;
-}
-
-.abt-p p{
-  padding: 1rem 3rem 1rem 3rem;
-  font-size: 20px;
-  text-align: center;
+.aboutpage-split img{
+	height: 25rem;
+	width: 25rem;
+	margin:0;
+	padding: 0;
 }
 
-
-@media only screen and (min-width: 768px) {
-	.aboutpage-split img{
-		height: 25rem;
-		width: 25rem;
-		margin:0;
-		padding: 0;
-	}
-	.aboutpage-text{
-		padding-left: 0;
-		margin-left: 0;
-	}
-}
 @media only screen and (max-width: 768px) {
 
   .aboutpage-split{
@@ -2258,118 +2208,44 @@ fieldset {
   }
   .aboutpage-text{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+		margin: 0;
+		padding: 0;
   }
+	.abt-back{
+	  padding: 4rem 0rem 1rem 0rem;
+	}
   .abt-back p {
   	padding: 1rem 3rem 0rem 3rem;
-    font-size: 18px;
   }
   .about h4 {
-    font-size: calc(30px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
-    padding: 0rem 0rem 1rem 0rem;
+    font-size: 25px;
+    padding: 0rem 2rem 0rem 2rem;
   	font-weight: 300;
     margin-bottom: 0;
   }
-  .abt-back2 p{
-    padding: 1rem 0rem 0rem 0rem;
-    font-size: 18px;
-  }
+	.about h3 {
+    font-size: 30px;
+		padding: 0;
+	}
+
   .aboutpage-text p{
     padding: 1rem 0rem 0rem 0rem;
     font-size: 18px;
   }
-  .abt-p{
-    display:inline;
-    resize: none;
+
+	.aboutpage-text h4 {
+		font-size: 30px;
+	  height: 10px;
     text-align: center;
-  }
-  .abt-back2{
-  	padding: 0rem 3rem 4rem 3rem;
-  }
+		padding: 2rem 0rem 1.5rem 0rem;
+		}
+
+	.aboutpage-text p {
+		font-size: 15px;
+		padding: 0rem 2rem 0rem 2rem;
+	  text-align: center;
+	}
 }
-
-@media only screen and (max-width: 500px) {
-
-    .aboutpage-split{
-      display:block;
-      align-items: center;
-    }
-    .aboutpage-split img{
-      height: 20rem;
-      width: 20rem;
-      justify-content: center;
-      padding: 0rem 0rem 3rem 0rem;
-
-    }
-    .aboutpage-text p {
-      font-size: 14px;
-      width: 305px;
-      resize: none;
-      padding: 2rem 0rem 0rem 0rem;
-      margin-top: 0;
-      text-align: left;
-    }
-
-    .about p{
-      font-size: 14px;
-    }
-}
-
-
-@media only screen and (max-width: 300px) {
-
-      .aboutp{
-        font-size: 11px;
-        line-height: 20px;
-        padding: 1rem 0rem 0rem 0rem;
-      }
-      .about h4{
-        font-size: 26px;
-      }
-
-      .aboutpage-split{
-        display:block;
-        justify-content: center;
-      }
-
-
-    .aboutpage-split img{
-        height: 15rem;
-        width: 15rem;
-        justify-content: center;
-        padding: 0rem 0rem 2rem 0rem;
-        margin: 0;
-      }
-
-      .abt-back p {
-      	padding: 1rem 2rem 0rem 2rem;
-        font-size: 11px;
-        margin: 0;
-
-      }
-      .abt-p h5{
-        justify-content: center;
-        padding: 0;
-
-      }
-
-
-      .aboutpage-text h4{
-        text-align: center;
-        margin: 0;
-      }
-      .aboutpage-text p{
-        font-size: 11px;
-        line-height: 20px;
-        padding: 1rem 0rem 0rem 0rem;
-        width: 210px;
-        margin-top: 0;
-        text-align: center;
-      }
-
-
-    }
 
 
 /*----------------------------Prices PAGE ------------------------------*/
@@ -2426,11 +2302,13 @@ fieldset {
  }
 .price-title{
 	color: #F9ACDF;
-	padding-top: 4rem;
+	padding-top: 10rem;
 	margin: 0;
 	font-size: 50px;
 	font-weight: 350;
 	text-align: center;
+	font-family: 'Poppins', sans-serif;
+
 }
 
 .price-box{

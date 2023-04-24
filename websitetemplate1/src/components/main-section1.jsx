@@ -6,9 +6,7 @@ export default function Section1() {
   return (
 	<div className='about-CN'>
   <div class="about-box">
-
     <div>
-
     <h4>
     Beauty in the blink of an eye
     <hr className="underline-about"></hr>
