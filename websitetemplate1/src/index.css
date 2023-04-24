@@ -2119,10 +2119,8 @@ fieldset {
 .aboutpage-split{
   display:flex;
   font-size: 30px;
-	padding: 2rem 3rem 5rem 4rem;
+	padding: 2rem 4rem 5rem 4rem;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .aboutpage-text h4 {
@@ -2166,11 +2164,10 @@ fieldset {
   .aboutpage-split{
     display:block;
     align-items: center;
-    padding-left: 20px;
   }
   .aboutpage-split img{
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -2332,6 +2329,19 @@ fieldset {
 
 @media only screen and (max-width: 501px) {
 
+
+	.price-box p{
+		padding: 0;
+		margin: 1rem 1rem 0rem 1rem;
+		font-size: 14px;
+
+	}
+	.price-box{
+		padding: 0rem 0rem 1rem 0rem;
+		border:1px solid #F9ACDF;
+	  border-spacing:10px;
+		margin: 80px 0;
+	}
 	.price-table {
 		display: flex;
 		text-align: center;

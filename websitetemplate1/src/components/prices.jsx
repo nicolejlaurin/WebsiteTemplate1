@@ -13,11 +13,11 @@ export default () => (
 			        <div class="price-table">
 			          <ul class="price-desc">
 			            <li >Service</li>
-			            <li>Full Set Classic Lashes - 2 hours</li>
-			            <li>Full Set hybrid Lashes - 2.5 hours</li>
-			            <li>Full Set Volume Lashes - 3 hours</li>
-			            <li>Full Set Mega Volume Lashes - 3 hours</li>
-			            <li>Lash Extension Removal - 30 minutes</li>
+			            <li>Full Set Classic Lashes</li>
+			            <li>Full Set hybrid Lashes</li>
+			            <li>Full Set Volume Lashes</li>
+			            <li>Full Set Mega Volume Lashes</li>
+			            <li>Lash Extension Removal</li>
 			          </ul>
 			          <ul class="price">
 			            <li >Price</li>
