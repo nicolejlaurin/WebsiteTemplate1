@@ -2164,6 +2164,8 @@ fieldset {
   .aboutpage-split{
     display:block;
     align-items: center;
+		padding: 2rem 2rem 5rem 2rem;
+
   }
   .aboutpage-split img{
     height: 60%;
@@ -2177,7 +2179,7 @@ fieldset {
 	  padding: 1.5rem 0rem 1rem 0rem;
 	}
   .abt-back p {
-  	padding: 1rem 3rem 0rem 3rem;
+  	padding: 1rem 2rem 0rem 2rem;
   }
   .about h4 {
     font-size: 25px;
@@ -2200,6 +2202,7 @@ fieldset {
 		font-size: 15px;
 		padding: 0;
 	  text-align: center;
+
 	}
 }
 

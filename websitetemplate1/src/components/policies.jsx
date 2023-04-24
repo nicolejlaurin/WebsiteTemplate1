@@ -19,7 +19,7 @@ export default () => (
 		<p>If irritation, swelling or redness occurs more than 24 hours after appointment, please contact us ASAP for removal.</p>
 
 
-	 <h4>No Show/Cancellation Policy</h4>
+	 <h4>No Show Policy</h4>
 	 <p>We ask that you are on time to your scheduled appointment time. If you are over 10 minutes late, we may not be able to accommodate your scheduled service(s). If you arrive over 10 minutes late or do not show up to your appointment, you will be charged 50% of the service(s) you have scheduled and we will be able to help you reschedule for a time that works better for you. </p>
 
 	 <h4>Cancellation Policy</h4>
