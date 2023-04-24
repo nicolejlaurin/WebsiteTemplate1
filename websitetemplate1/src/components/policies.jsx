@@ -5,7 +5,7 @@ import { FaRegCircle, FaAngleRight} from 'react-icons/fa';
 
 export default () => (
 
-	<div className='about'>
+	<div className='policy'>
 		<div class="guarantee">
 		<h4>PRIVACY POLICY</h4>
 		<p>

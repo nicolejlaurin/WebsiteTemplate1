@@ -2091,7 +2091,7 @@ fieldset {
   padding-top: 80px;
 }
 .abt-back{
-  padding: 4rem 0rem 6rem 0rem;
+  padding: 4rem 0rem 3.3rem 0rem;
   text-align: center;
 }
 .about h3 {
@@ -2172,11 +2172,7 @@ fieldset {
     margin-left: auto;
     margin-right: auto;
   }
-  .aboutpage-text{
-    display: block;
-		margin: 0;
-		padding: 0;
-  }
+
 	.abt-back{
 	  padding: 1.5rem 0rem 1rem 0rem;
 	}
@@ -2193,12 +2189,6 @@ fieldset {
     font-size: 30px;
 		padding: 0;
 	}
-
-  .aboutpage-text p{
-    padding: 1rem 0rem 0rem 0rem;
-    font-size: 18px;
-  }
-
 	.aboutpage-text h4 {
 		font-size: 30px;
 	  height: 10px;
@@ -2208,7 +2198,7 @@ fieldset {
 
 	.aboutpage-text p {
 		font-size: 15px;
-		padding: 0rem 2rem 0rem 2rem;
+		padding: 0;
 	  text-align: center;
 	}
 }
@@ -2304,10 +2294,6 @@ fieldset {
 .price-box p{
 	padding: 0;
 	margin: 1rem 1rem 0rem 1rem;
-}
-
-.guarantee{
-	padding: 5rem 2rem 5rem 2rem;
 }
 
 @media only screen and (max-width: 980px) {
@@ -2472,7 +2458,71 @@ fieldset {
   }
 }
 
-/*----------------------------*/
+/*----------------------- POLICY ---------------------------*/
+
+.guarantee{
+	padding: 5rem 2rem 5rem 2rem;
+}
+
+.policy {
+	display: flex;
+	flex-direction: column;
+	color: black;
+  resize: none;
+  padding-top: 80px;
+}
+.policy h3 {
+	font-size: 40px;
+	padding: 0;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	letter-spacing: .02em;
+}
+.policy h4 {
+	font-size: 30px;
+	font-weight: 300;
+	padding: 0rem 3rem 0rem 3rem;
+	text-align: center;
+}
+
+.policy p {
+	font-size: 15px;
+	font-weight: 100;
+	padding: 0rem 7rem 0rem 7rem;
+  line-height: 33px;
+}
+
+@media only screen and (max-width: 768px) {
+	.guarantee{
+		padding: 2rem 0rem 5rem 0rem;
+	}
+
+	.policy h3 {
+		font-size: 30px;
+		padding: 0;
+		text-align: center;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 300;
+		letter-spacing: .02em;
+	}
+	.policy h4 {
+		font-size: 30px;
+		font-weight: 300;
+		padding: 0;
+		text-align: center;
+	}
+
+	.policy p {
+		font-size: 15px;
+		font-weight: 100;
+		padding: 0rem 3rem 0rem 3rem;
+	  line-height: 33px;
+	}
+
+}
+
+/*--------------------------------------------------*/
 
 .thankyou{
   	text-align: center;
