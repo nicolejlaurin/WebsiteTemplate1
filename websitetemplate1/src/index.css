@@ -1331,7 +1331,7 @@ transition:background-color 0.3s ease-in-out;
 	padding-top: 100px;
   color: black;
   background-size: 100rem;
-	padding: 10rem 3rem 10rem 3rem;
+	padding: 8rem 3rem 8rem 3rem;
 	text-align: center;
 }
 .service h4 {
@@ -1388,49 +1388,9 @@ transition:background-color 0.3s ease-in-out;
 
 @media only screen and (max-width: 950px) {
 
-.service{
-	font-size: 40px;
-	font-weight: 300;
-	text-align: center;
-
-}
-  .service-split{
-    display:block;
-		width: auto;
-		padding: 0;
-		margin: 0;
-  }
-	.service-split-img{
-		height: 300px;
-		width: 300px;
-		margin:0;
-		padding: 0;
-	}
-
-.service-split h4 {
-	padding: 3rem 0rem 1rem 0rem;
-	margin:0;
-	font-size: 30px;
-	font-weight: 100;
-	text-align: center;
-}
-  .service-text p{
-    text-align: center;
-    padding: 0rem 10rem 3rem 10rem;
-}
-	.service-text{
-		margin:0;
-		padding: 0;
-		resize:none;
-		display: block;
-		width: auto;
-
-	}
-}
-@media only screen and (max-width: 500px) {
 	.services h3 {
 		background-image: url('./images/cloud.png');
-		font-size: 40px;
+		font-size: 30px;
 		font-weight: 300;
 		padding-top: 100px;
 	  color: black;
@@ -1476,7 +1436,7 @@ transition:background-color 0.3s ease-in-out;
 		}
 
 	.service-split h4 {
-		padding: 3rem 0rem 1rem 0rem;
+		padding: 2rem 0rem 1rem 0rem;
 		margin:0;
 		font-size: 30px;
 		font-weight: 100;
@@ -1484,7 +1444,7 @@ transition:background-color 0.3s ease-in-out;
 	}
 	  .service-text p{
 	    text-align: center;
-			padding: 0rem 3rem 2rem 3rem;
+			padding: 0rem 3rem 4rem 3rem;
 	}
 		.service-text{
 			margin:0;
@@ -1517,6 +1477,15 @@ transition:background-color 0.3s ease-in-out;
 	width: 100%;
 	min-height: 70vh;
 
+}
+
+@media only screen and (max-width: 768px) {
+	.booking h3 {
+		font-size: 30px;
+		font-weight: 300;
+		padding: 1rem 3rem 0rem 3rem;
+		text-align: center;
+	}
 }
 /*----------------------------SPORTS------------------------------*/
 
@@ -2212,7 +2181,7 @@ fieldset {
 		padding: 0;
   }
 	.abt-back{
-	  padding: 4rem 0rem 1rem 0rem;
+	  padding: 1.5rem 0rem 1rem 0rem;
 	}
   .abt-back p {
   	padding: 1rem 3rem 0rem 3rem;
@@ -2266,11 +2235,13 @@ fieldset {
 	width: 100%;
 	font-weight: 200;
 }
-
-.price .header {
-	background-color: #1A1A1A;
-  color: white;
-  font-size: 17px;
+.price-desc{
+  list-style-type: none;
+  border: 0;
+  margin: auto;
+  padding: 0;
+	width: 100%;
+	font-weight: 200;
 }
 
 .price li {
@@ -2280,9 +2251,14 @@ fieldset {
 	align-items:center;
 }
 
+.price-desc li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+	align-items:center;
+}
+
 .price-div{
-  background-color: white;
-  color: black;
   padding: 0rem 2rem 5rem 2rem;
   text-align: center;
 }
@@ -2301,18 +2277,23 @@ fieldset {
 
  }
 .price-title{
-	color: #F9ACDF;
-	padding-top: 10rem;
 	margin: 0;
-	font-size: 50px;
-	font-weight: 350;
+	font-size: 40px;
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	letter-spacing: .02em;
+	display: flex;
+	flex-direction: column;
+	color: black;
+  resize: none;
+  padding-top: 180px;
+	padding: 180px 0px 20px 0px;
 
 }
 
 .price-box{
-	padding: 0rem 2rem 5rem 0rem;
+	padding: 0rem 0rem 5rem 0rem;
 	border:1px solid #F9ACDF;
   border-spacing:10px;
 	margin: 80px 0;
@@ -2331,177 +2312,73 @@ fieldset {
 .guarantee{
 	padding: 5rem 2rem 5rem 2rem;
 }
-.after-care {
-		  padding: 0rem 0rem 0rem 3rem;
-}
-.after-care p{
-	  margin: 0;
-	  text-align: left;
 
-		display: block;
+@media only screen and (max-width: 980px) {
+	.price-title{
+		margin: 0;
+		font-size: 30px;
+	  padding-top: 180px;
+		padding: 130px 0px 20px 0px;
 
 	}
-/* Change the width of the three columns to 100%
-(to stack horizontally on small screens) */
-@media only screen and (max-width: 600px) {
-  .columns {
-    width: 100%;
-  }
+	.price-desc{
+		width: 100%;
+	}
+	.price {
+		width:80%;
+	}
 }
 
-.point-icon {
-	top: 0;
-	right: 0;
-	transform: translate(0%, 0%);
-	font-size: 0.5rem;
-	padding: 0rem 0.5rem 0rem 0rem;
+
+@media only screen and (max-width: 501px) {
+
+	.price-table {
+		display: flex;
+		text-align: center;
+		align-items:center;
+	  margin-left: 0;
+	  margin-right: 0;
+	}
+	.price-desc{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 35%;
+		font-size: 14px;
+	}
+	.price {
+	  list-style-type: none;
+	  border: 0;
+	  margin: 0;
+	  padding: 0;
+		width:20%;
+		font-size: 14px;
+	}
+
+	.price li {
+	  border-bottom: 1px solid #eee;
+	  padding: 20px;
+		padding-left: 0;
+		padding-right: 0;
+	  text-align: center;
+		align-items:center;
+	}
+}
+
+.price-desc{
+	list-style-type: none;
 	margin: 0;
+	padding: 0;
+	width: 80%;
+	font-weight: 200;
 }
-/*----------------------------CLIENT PAGE CSS------------------------------*/
-
-
-
-.Client {
-	display: flex;
-	flex-direction: column;
-	min-height: 60vh;
-	background-color: white;
-	color: black;
-  align-content: flex-start;
-}
-
-.Client h4 {
-	font-size: calc(20px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
-	font-weight: 600;
-	padding: 0rem 3rem 0rem 3rem;
-	text-align: left;
-}
-
-.Client p {
-	font-size: calc(10px + (60 - 40) * ((100vw - 300px) / (2000 - 300)));
-	font-weight: 100;
-	padding: 0rem 3rem 0rem 3rem;
-}
-
-.list-view {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(255,255,255,1);
-    z-index: 1;
-}
-
-
-/*----------------------------FAQ PAGE CSS------------------------------*/
-
-.FAQ-CN {
-	display: flex;
-	flex-direction: column;
-	min-height: 60vh;
-	background-color: white;
-	color: black;
-  align-content: flex-start;
-}
-
-.FAQ-CN h3 {
-	font-size: calc(20px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
-	font-weight: 600;
-	padding: 0rem 3rem 0rem 3rem;
-	text-align: left;
-}
-
-.FAQ-CN h4 {
-	font-size: calc(10px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
-	font-weight: 600;
-	padding: 0rem 3rem 0rem 3rem;
-	text-align: left;
-}
-
-.FAQ-CN p {
-	font-size: calc(10px + (60 - 40) * ((100vw - 300px) / (2000 - 300)));
-	font-weight: 100;
-	padding: 0rem 3rem 0rem 3rem;
-}
-
-
-
-/*----------------------------FAQ PAGE CSS------------------------------*/
-
-
-.faq-content {
-  margin: 0;
-  padding-left: 3em;
-  padding-top:3rem;
-  color: black;
-}
-
-.faq-question {
-  padding: 20px 0;
-  border-bottom: 1px dotted #ccc;
-  color: black;
-}
-
-.panel-title {
-  font-size: 21px;
-  width: 100%;
-  position: relative;
-  margin: 0;
-  padding: 10px 10px 0 68px;
-  display: block;
-  cursor: pointer;
-  color: black;
-}
-
-.panel-content {
-  font-size: 20px;
-  padding: 0px 14px 0px 0px;
-  height: 0;
-  color: black;
-  z-index: -1;
-  position: relative;
-  opacity: 0;
-  -webkit-transition: .4s ease;
-  -moz-transition: .4s ease;
-  -o-transition: .4s ease;
-  transition: .4s ease;
-}
-
-.panel:checked ~ .panel-content{
-  height: auto;
-  opacity: 1;
-  padding: 14px;
-  color: black;
-}
-
-.plus {
-  position: absolute;
-  margin-left: 20px;
-  margin-top: 4px;
-  z-index: 5;
-  font-size: 42px;
-  line-height: 100%;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-  -webkit-transition: .2s ease;
-  -moz-transition: .2s ease;
-  -o-transition: .2s ease;
-  transition: .2s ease;
-}
-
-.panel:checked ~ .plus {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.panel {
-  display: none;
+.price {
+	list-style-type: none;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	width:30%;
+	font-weight: 200;
 }
 
 /*---------------------- Scroll behavior ---------------------*/

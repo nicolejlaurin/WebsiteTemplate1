@@ -8,10 +8,10 @@ export default () => (
 
 		<div className='price-div'>
 			<h4 class="price-title"> OUR PRICES</h4>
-			<hr className="underline"></hr>
+
 			      <h4 class="price-h4"> Full Set </h4>
 			        <div class="price-table">
-			          <ul class="price">
+			          <ul class="price-desc">
 			            <li >Service</li>
 			            <li>Full Set Classic Lashes - 2 hours</li>
 			            <li>Full Set hybrid Lashes - 2.5 hours</li>
@@ -32,7 +32,7 @@ export default () => (
 
 			        <h4 class="price-h4"> Refill Set </h4>
 			        <div class="price-table">
-			          <ul class="price">
+			          <ul class="price-desc">
 			              <li>Service</li>
 			              <li>Classic Refill (2 weeks)</li>
 			              <li>Classic Refill (3 weeks)</li>
